@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Getaway Destinations</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container"><br>
+
+		<header class="jumbotron">
+			<h1>Getaway Destinations</h1>
+		</header>
+
+
+		
+		<div id="buttons-view"></div><br>
+
+
+		<form class="navbar-form navbar-right" id="place-form">
+			<div class="form-group">
+				<label for="place-input"><h3>Add Places</h3></label>
+			</div>
+			<input type="text" id="place-input"><br>
+
+			
+			<input id="add-place" button type="submit" class="btn btn-deafult" value="Submit">
+		</form>
+
+		
+		<div id="places-view" data-away="still"></div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-image: url("https://www.designyourway.net/drb/wp-content/uploads/2015/05/Beach-Wallpaper-Desktop-Background-52.jpg");
+	color: white;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.container {
+	position: relative;
+}
+
+header.jumbotron {
+	background: none;
+	border-radius: 24px;
+}
+
+p {
+	padding-top: 10px;
+	font-size: 18px;
+
+}
+
+
+h1 {
+	font-family: 'Petit Formal Script', cursive;
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	letter-spacing: 8px;
+}
+
+h3 {
+	color: black;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.vaca	 {
+	background: whitesmoke;
+	border-radius: 12px;
+	color:black;
+	font-style: Courier New;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 20px;
+
+}
+
+#place-form {
+	text-align: right;
+}
+
+
+
+input#place-input {
+	color: #000;
+}
+
+input#add-place.btn {
+	color: #000;
+}
